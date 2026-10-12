@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "YouEditor"
-include ':app'
+include(":app")
