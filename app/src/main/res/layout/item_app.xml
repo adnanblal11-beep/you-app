@@ -5,8 +5,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="6dp"
     app:cardBackgroundColor="@color/card_bg"
-    app:cardCornerRadius="12dp"
-    app:cardElevation="2dp">
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,6 +51,7 @@
             android:text="@string/share_apk"
             style="@style/Widget.Material3.Button.OutlinedButton"
             app:strokeColor="@color/blue"
-            android:textColor="@color/blue" />
+            android:textColor="@color/blue"
+            app:cornerRadius="20dp" />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
